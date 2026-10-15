@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Barbaqueda.Onyx
+PackageVersion: 2.8.1
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: Onyx\Onyx.exe
+  PortableCommandAlias: onyx
+ArchiveBinariesDependOnPath: true
+ReleaseDate: 2026-10-15
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/Barbaqueda/onyx/releases/download/v2.8.1/Onyx-2.8.1-win-x64.zip
+  InstallerSha256: 55234505AB4CB6A96724AC3059127896C83E1910EDA0AC5552C0B72BDC66F0CB
+ManifestType: installer
+ManifestVersion: 1.9.0

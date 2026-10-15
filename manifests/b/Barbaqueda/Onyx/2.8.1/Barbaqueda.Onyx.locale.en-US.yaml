@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+
+PackageIdentifier: Barbaqueda.Onyx
+PackageVersion: 2.8.1
+PackageLocale: en-US
+Publisher: Alexander Dunn
+PublisherUrl: https://github.com/Barbaqueda
+PublisherSupportUrl: https://github.com/Barbaqueda/onyx/issues
+Author: Alexander Dunn
+PackageName: Onyx
+PackageUrl: https://barbaqueda.github.io/onyx/
+License: Freeware (free for personal use)
+LicenseUrl: https://github.com/Barbaqueda/onyx/blob/main/LICENSE
+Copyright: Copyright (c) 2026 Alexander Dunn
+ShortDescription: File organizer that plans a tidy folder structure, shows every move before making it, and undoes in one click.
+Description: |-
+  Onyx reads file names and the folders you already have, then proposes a structure for a messy folder such as Downloads.
+  You review the plan as a folder tree and as a list of every move, untick or change moves, and apply.
+  One click undoes everything, and undo never overwrites a file that has since appeared at the original spot.
+  It works offline with rules; AI planning and tagging are optional, including a local model through Ollama.
+  Onyx is also a file explorer with tags, search across all files, previews and a Ctrl+K quick find.
+Tags:
+- file-manager
+- file-organizer
+- files
+- organizer
+- productivity
+- tagging
+ReleaseNotes: |-
+  Drag tabs to rearrange panels, live updates when files change in File Explorer, Organize works on the folder you have open, and closing every tab returns to the home screen.
+ReleaseNotesUrl: https://github.com/Barbaqueda/onyx/releases/tag/v2.8.1
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0
